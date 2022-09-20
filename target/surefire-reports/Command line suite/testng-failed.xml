@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="org.altairretro.TestNG.CashPostTest">
+        <methods>
+          <include name="setupApp"/>
+          <include name="closeEntire"/>
+          <include name="main"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- org.altairretro.TestNG.CashPostTest -->
+      <class name="org.altairretro.TestNG.T5Test">
+        <methods>
+          <include name="setupApp"/>
+          <include name="main"/>
+          <include name="closeEntire"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- org.altairretro.TestNG.T5Test -->
+      <class name="org.altairretro.practice.CmdDataSendTest">
+        <methods>
+          <include name="step1Test"/>
+        </methods>
+      </class> <!-- org.altairretro.practice.CmdDataSendTest -->
+      <class name="org.altairretro.TestNG.AdminInfoupdateTest">
+        <methods>
+          <include name="setupApp"/>
+          <include name="closeEntire"/>
+          <include name="main"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- org.altairretro.TestNG.AdminInfoupdateTest -->
+      <class name="org.altairretro.TestNG.CashInfoUpdateTest">
+        <methods>
+          <include name="setupApp"/>
+          <include name="closeEntire"/>
+          <include name="main"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- org.altairretro.TestNG.CashInfoUpdateTest -->
+      <class name="org.altairretro.TestNG.ProductCreateTest">
+        <methods>
+          <include name="main"/>
+          <include name="setupApp"/>
+          <include name="closeEntire"/>
+          <include name="logoutSuccess"/>
+        </methods>
+      </class> <!-- org.altairretro.TestNG.ProductCreateTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

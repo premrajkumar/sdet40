@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="org.tyss.sales_inventory.Generic.ListenerImplementation">
+</listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.altairretro.practice.AdminInfoupdatetest"/>
+      <class name="org.altairretro.practice.CashInfoUpdatetest"/>
+      <class name="org.altairretro.practice.CashPostest"/>
+      <class name="org.altairretro.practice.ProductCreatetest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
