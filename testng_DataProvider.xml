@@ -3,7 +3,7 @@
 <suite data-provider-thread-count="1" name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.altairretro.practice.TestngBasic"/>
+      <class name="org.altairretro.practice.TestngBasicTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

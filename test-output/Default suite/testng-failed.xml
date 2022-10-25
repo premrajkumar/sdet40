@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.altairretro.practice.CmdDataSendTest">
+      <class name="org.altairretro.practice.BrokenLinks">
         <methods>
-          <include name="step1Test"/>
+          <include name="brokenlinks"/>
         </methods>
-      </class> <!-- org.altairretro.practice.CmdDataSendTest -->
+      </class> <!-- org.altairretro.practice.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

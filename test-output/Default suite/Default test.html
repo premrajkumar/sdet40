@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 20 13:22:45 IST 2022</td>
+<td>Started on:</td><td>Fri Sep 30 12:57:36 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2804 ms)</td>
+<tr><td>Total time:</td><td>15 seconds (15218 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.altairretro.practice.CmdDataSendTest.step1Test()'><b>step1Test</b><br>Test class: org.altairretro.practice.CmdDataSendTest</td>
-<td><div><pre>org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=105.0.5195.127)
+<td title='org.altairretro.practice.BrokenLinks.brokenlinks()'><b>brokenlinks</b><br>Test class: org.altairretro.practice.BrokenLinks</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;DESKTOP-VUHVFPU&apos;, ip: &apos;192.168.207.132&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94559ad36e3ff10ad0490bb0fcc52ae1, get {url=http}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PREMKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53502/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
+System info: host: &apos;DESKTOP-VUHVFPU&apos;, ip: &apos;192.168.95.132&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [73307eec-af56-442c-9b13-8d160b9c87f4, findElement {using=xpath, value=//button[.=&apos;x&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.1, moz:accessibilityChecks: false, moz:buildID: 20220829141339, moz:debuggerAddress: localhost:55384, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20664, moz:profile: C:\Users\PREMKU~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55384/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73307eec-af56-442c-9b13-8d160b9c87f4
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,10 +95,11 @@ Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
-	at org.tyss.sales_inventory.Generic.WebDriverUtility.navigateToApplication(WebDriverUtility.java:80)
-	at org.tyss.sales_inventory.Generic.WebDriverUtility.openBrowserWithApplication(WebDriverUtility.java:103)
-	at org.altairretro.practice.CmdDataSendTest.step1Test(CmdDataSendTest.java:15)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.altairretro.practice.BrokenLinks.brokenlinks(BrokenLinks.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,15 +128,14 @@ Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1741007954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1741007954'><pre>org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=105.0.5195.127)
+</pre></div><a href='#' onClick='toggleBox("stack-trace342740966", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace342740966'><pre>org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;DESKTOP-VUHVFPU&apos;, ip: &apos;192.168.207.132&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94559ad36e3ff10ad0490bb0fcc52ae1, get {url=http}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PREMKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53502}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53502/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
+System info: host: &apos;DESKTOP-VUHVFPU&apos;, ip: &apos;192.168.95.132&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [73307eec-af56-442c-9b13-8d160b9c87f4, findElement {using=xpath, value=//button[.=&apos;x&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.1, moz:accessibilityChecks: false, moz:buildID: 20220829141339, moz:debuggerAddress: localhost:55384, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20664, moz:profile: C:\Users\PREMKU~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55384/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73307eec-af56-442c-9b13-8d160b9c87f4
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -149,10 +148,11 @@ Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
-	at org.tyss.sales_inventory.Generic.WebDriverUtility.navigateToApplication(WebDriverUtility.java:80)
-	at org.tyss.sales_inventory.Generic.WebDriverUtility.openBrowserWithApplication(WebDriverUtility.java:103)
-	at org.altairretro.practice.CmdDataSendTest.step1Test(CmdDataSendTest.java:15)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.altairretro.practice.BrokenLinks.brokenlinks(BrokenLinks.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -182,8 +182,8 @@ Session ID: 94559ad36e3ff10ad0490bb0fcc52ae1
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
-<td>org.altairretro.practice.CmdDataSendTest@7c24b813</td></tr>
+<td>15</td>
+<td>org.altairretro.practice.BrokenLinks@7c24b813</td></tr>
 </table><p>
 </body>
 </html>

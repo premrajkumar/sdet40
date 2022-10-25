@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -45,6 +46,9 @@ public class WebDriverUtility {
 			break;
 		case "chrome":WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
+		break;
+		case "ie":WebDriverManager.iedriver().setup();
+		driver= new InternetExplorerDriver();
 		break;
 		default:System.out.println("Please Enter Valid Browser Key");
 			break;
