@@ -15,7 +15,7 @@ public class Seleniumgrid {
 	{
 		URL url=null;
 		try {
-			url = new URL("http://192.168.218.132:4444/wd/hub");
+			url = new URL("http://192.168.50.132:4444/wd/hub");
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -32,6 +32,7 @@ public class Seleniumgrid {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		driver.quit();
 		
 	}
