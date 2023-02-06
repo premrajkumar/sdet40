@@ -11,6 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class makemytrip {
 
 	public static void main(String[] args) {
+		//jenkins practice
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
